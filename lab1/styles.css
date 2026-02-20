@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #090b0c;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #b7a8bd;
+}
+
+h2 {
+	text-align: center; 
+	padding: 40px;
+}
+
+nav {
+    background-color: #2f3559;
+    padding: 15px 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #dcd5e5;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+    background-color: #7272b0;
+}
+
+.joke-section {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.joke-card {
+    display: flex;
+    align-items: center;
+    background: #dcd5e5;
+    border-radius: 20px;
+    min-height: 300px;
+	overflow: hidden;
+	border: 3px solid #7272b0;
+}
+
+.joke-card p {
+    flex: 0 0 70%;
+    padding: 40px;
+    font-size: 1.4em;
+    color: #2c3e50;
+    box-sizing: border-box;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+.joke-card img {
+    flex: 0 0 30%;
+    width: 100%;
+    height: 300px;
+	min-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-left: 3px solid #7272b0;
+}
+
+.content-section {
+	display: flex;
+    align-items: center;
+    background: #dcd5e5;
+    border-radius: 20px;
+	flex-direction: column;
+	padding: 20px;
+	border: 3px solid #7272b0;
+}
+
+#content img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+	border-radius: 15px;
+}
+
+.content-text {
+	display: block;
+	border-radius: 20px;
+	background: #dcd5e5;
+	
+}
+
+.content-text h3{
+	font-size: 1.4em;
+	text-align: center; 
+	padding: 20px;
+	letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+.content-text p{
+	font-size: 1.4em;
+    color: #2c3e50;
+	letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+.content-text q {
+    display: block;
+    font-size: 1.4em;
+    color: #2c3e50;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 1.6;
+    margin: 15px 0;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.content-text .author {
+    font-size: 1.4em;
+    color: #2f3559;
+}
+
+.table-section {
+    margin: 40px 0;
+    background: #dcd5e5;
+    border-radius: 20px;
+    padding: 20px;
+    border: 3px solid #7272b0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+	background: #dcd5e5;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #dcd5e5;
+}
+
+.table th {
+    background: #2f3559;
+    color: #dcd5e5;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.table td {
+    color: #2c3e50;
+}
